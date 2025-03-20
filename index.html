@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Ukasha Usman - A passionate frontend developer specializing in HTML, CSS, JavaScript, and responsive web design."
+    />
+    <meta
+      name="keywords"
+      content="Ukasha Usman, Frontend Developer, HTML, CSS, JavaScript, Portfolio, Web Developer"
+    />
+    <meta name="author" content="Ukasha Usman" />
+    <title>Ukasha Usman | Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="hero">
+      <nav class="navbar">
+        <div class="logo">Ukasha<span>Usman</span></div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="menu-toggle">
+          <span></span><span></span><span></span>
+        </div>
+      </nav>
+      <section class="home" id="home">
+        <div class="content">
+          <h1>Hello, I'm <span>Ukasha Usman</span></h1>
+          <p>A passionate <span class="typing"></span></p>
+          <a href="#contact" class="btn">Hire Me</a>
+        </div>
+      </section>
+    </header>
+
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Hey! I'm <strong>Ukasha Usman</strong> — a passionate and creative
+              Frontend Developer.
+            </p>
+            <ul class="about-points">
+              <li>
+                💻 Skilled in <strong>HTML</strong>, <strong>CSS</strong>,
+                <strong>JavaScript</strong>, and <strong>React.js</strong>.
+              </li>
+              <li>
+                🎨 Experienced in designing responsive, user-friendly
+                interfaces.
+              </li>
+              <li>
+                🧠 Have a solid understanding of
+                <strong>UI/UX principles</strong> for clean and intuitive
+                design.
+              </li>
+              <li>
+                ⚡ Proficient with <strong>Bootstrap</strong> for fast and
+                responsive layouts.
+              </li>
+              <li>
+                📐 Creative mindset with a love for
+                <strong>Canva designing</strong> and visual aesthetics.
+              </li>
+              <li>
+                🚀 Always learning and staying up-to-date with modern frontend
+                trends and tools.
+              </li>
+            </ul>
+            <p>
+              I aim to deliver web experiences that not only function flawlessly
+              but also leave a lasting visual impact. Let's build something
+              awesome together!
+            </p>
+          </div>
+          <div class="about-img">
+            <img src="./img.png" alt="Ukasha Usman" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="container">
+        <h2 class="section-title">Services</h2>
+        <div class="services-list">
+          <div class="service-card">
+            <h3>Frontend Development</h3>
+            <p>
+              Building responsive, interactive, and scalable user interfaces
+              using HTML, CSS, JavaScript, and React.js.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <h3>Web Development</h3>
+            <p>
+              Crafting fast, modern websites with clean code and strong
+              performance across all devices and browsers.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <h3>UI/UX Designing</h3>
+            <p>
+              Designing visually appealing and intuitive user experiences that
+              focus on usability, flow, and aesthetics.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <h3>Canva Designing</h3>
+            <p>
+              Creating professional and eye-catching designs for social media,
+              presentations, and branding using Canva.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="portfolio-grid">
+          <div class="project-card">
+            <h3>Netflix Clone</h3>
+            <p><strong>Stack:</strong> HTML, CSS</p>
+            <a
+              href="https://github.com/UkashaUsman1/Netflix-Clone"
+              class="btn"
+              target="_blank"
+              >View Source Code</a
+            >
+          </div>
+
+          <div class="project-card">
+            <h3>Calculator</h3>
+            <p><strong>Stack:</strong> HTML, CSS, JavaScript</p>
+            <a
+              href="https://github.com/UkashaUsman1/Calculator"
+              class="btn"
+              target="_blank"
+              >View Source Code</a
+            >
+          </div>
+
+          <div class="project-card">
+            <h3>
+              More Projects : Coming Soon <span class="typing-dots"></span>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <form
+          class="contact-form"
+          action="https://formsubmit.co/ukashausman021@gmail.com"
+          method="POST"
+        >
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            rows="5"
+            required
+          ></textarea>
+
+          <!-- Optional -->
+          <input type="hidden" name="_captcha" value="false" />
+          <input
+            type="hidden"
+            name="_next"
+            value="https://ukasha-portfolio.netlify.app/thankyou.html"
+          />
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Ukasha Usman. All rights reserved.</p>
+      <div class="socials">
+        <a href="https://github.com/UkashaUsman1" target="_blank">GitHub</a> |
+        <a href="https://www.linkedin.com/in/ukashausman/" target="_blank"
+          >LinkedIn</a
+        >
+        |
+        <a href="mailto:ukashausman021@gmail.com">Email</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

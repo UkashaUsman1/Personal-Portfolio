@@ -22,9 +22,6 @@ This portfolio is designed to represent my skills as a **Frontend Developer** an
 
 ---
 
-
----
-
 ## 💡 Technologies Used
 
 - **HTML5** – Semantic and accessible structure
